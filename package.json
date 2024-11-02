@@ -1,0 +1,31 @@
+{
+	"name": "env-config",
+	"version": "1.0.0",
+	"description": "Utility for the preparation of an environment's configuration",
+	"main": "index.js",
+	"type": "module",
+	"author": "Tracy-Gregory Gilmore",
+	"license": "CC0-1.0",
+	"scripts": {
+		"start": "node --experimental-vm-modules index.js",
+		"test": "node --test",
+		"watch": "node --watch  --experimental-vm-modules index.js",
+		"coverage": "node --test --experimental-test-coverage"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/TracyGJG/env-config.git"
+	},
+	"keywords": [
+		"Environment",
+		"Configuration",
+		"EnvVar"
+	],
+	"bugs": {
+		"url": "https://github.com/TracyGJG/env-config/issues"
+	},
+	"homepage": "https://github.com/TracyGJG/env-config#readme",
+	"engines": {
+		"node": ">=20.0.0"
+	}
+}
