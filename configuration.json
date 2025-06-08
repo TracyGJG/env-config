@@ -1,50 +1,51 @@
 {
-	"@common": {
-		"APPLICATION_EDITION": "MVP-Release-Candidate"
-	},
-	"@features": ["FEATURE_A", "FEATURE_B"],
-	"@environments": {
-		"development": {
-			"api": {
-				"API_KEY": "DEV_API_KEY"
-			},
-			"backend": { "SERVER_URL": "BACKEND_URL" },
-			"database": {
-				"DB_USER_NAME": "dbUserName",
-				"DB_PASSWORD": "dbPassword"
-			},
-			"frontend": { "APPLICATION_LABEL": "Dev Edition" }
-		},
-		"testing": {
-			"api": { "API_KEY": "DEV_API_KEY" },
-			"backend": { "SERVER_URL": "BACKEND_URL" },
-			"database": {
-				"DB_USER_NAME": "dbUserName",
-				"DB_PASSWORD": "dbPassword"
-			},
-			"frontend": {
-				"APPLICATION_LABEL": "Test Edition"
-			}
-		},
-		"staging": {
-			"api": { "API_KEY": "DEV_API_KEY" },
-			"backend": { "SERVER_URL": "BACKEND_URL" },
-			"database": {
-				"DB_USER_NAME": "dbUserName",
-				"DB_PASSWORD": "dbPassword"
-			},
-			"frontend": { "APPLICATION_LABEL": "Previiew Edition" }
-		},
-		"production": {
-			"api": { "API_KEY": "LIVE_API_KEY" },
-			"backend": {
-				"SERVER_URL": "BACKEND_URL"
-			},
-			"database": {
-				"DB_USER_NAME": "dbUserName",
-				"DB_PASSWORD": "dbPassword"
-			},
-			"frontend": { "APPLICATION_LABEL": "Live Edition" }
-		}
-	}
+  "@common": {
+    "APPLICATION_EDITION": "MVP-Release-Candidate",
+    "VERSION": "1.2.3"
+  },
+  "@features": ["FEATURE_A", "FEATURE_B"],
+  "@environments": {
+    "development": {
+      "api": {
+        "API_KEY": "DEV_API_KEY"
+      },
+      "backend": { "SERVER_URL": "BACKEND_URL" },
+      "database": {
+        "DB_USER_NAME": "dbUserName",
+        "DB_PASSWORD": "dbPassword"
+      },
+      "frontend": { "APPLICATION_LABEL": "Dev Edition" }
+    },
+    "testing": {
+      "api": { "API_KEY": "DEV_API_KEY" },
+      "backend": { "SERVER_URL": "BACKEND_URL" },
+      "database": {
+        "DB_USER_NAME": "dbUserName",
+        "DB_PASSWORD": "dbPassword"
+      },
+      "frontend": {
+        "APPLICATION_LABEL": "Test Edition"
+      }
+    },
+    "staging": {
+      "api": { "API_KEY": "DEV_API_KEY" },
+      "backend": { "SERVER_URL": "BACKEND_URL" },
+      "database": {
+        "DB_USER_NAME": "dbUserName",
+        "DB_PASSWORD": "dbPassword"
+      },
+      "frontend": { "APPLICATION_LABEL": "Previiew Edition" }
+    },
+    "production": {
+      "api": { "API_KEY": "LIVE_API_KEY" },
+      "backend": {
+        "SERVER_URL": "BACKEND_URL"
+      },
+      "database": {
+        "DB_USER_NAME": "dbUserName",
+        "DB_PASSWORD": "dbPassword"
+      },
+      "frontend": { "APPLICATION_LABEL": "Live Edition" }
+    }
+  }
 }
